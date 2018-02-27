@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/scrypto/integration
+hooks:
+  BeforeInstall:
+    - location: /scripts/setenvars.sh
+      timeout: 20 	
+  AfterInstall:
+    - location: /scripts/core.sh
+    - location: /scripts/main.sh
+      timeout: 200
+
+
+
