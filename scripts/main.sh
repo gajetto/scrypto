@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup tweepy.sh &
+nohup /var/www/scrypto/integration/scripts/tweepy.sh &

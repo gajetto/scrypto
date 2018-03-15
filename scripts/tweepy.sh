@@ -1,2 +1,2 @@
 #!/bin/bash
-python /var/www/scrypto/integration/scrypto/tweepy.py
+python /var/www/scrypto/integration/scrypto/follow.py
